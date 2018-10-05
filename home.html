@@ -30,7 +30,13 @@
     <thead><tr>
         <th>Owner</th><th>Flat #</th><th>Mobile</th><th></th>
     </tr></thead>
-    <tbody></tbody>
+    <tbody data-bind="foreach: members">
+        <tr>
+            <td data-bind="text: Name"></td>
+            <td data-bind="text: Mobile"></td>
+            <td data-bind="text: Flat"></td>
+        </tr>
+    </tbody>
 </table>
 </body>
 </html>
