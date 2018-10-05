@@ -1,11 +1,11 @@
 [{
-		"name": "Sunil",
-		"age": 30,
-		"flats": ["202"]
+		"Name": "Sunil",
+		"Mobile": 99861234887,
+		"Flat": ["202"]
 	},
 	{
-		"name": "Niranjan",
-		"age": 32,
-		"flats": ["104"]
+		"Name": "Niranjan",
+		"Mobile": 32,
+		"Flat": ["104"]
 	}
 ]
