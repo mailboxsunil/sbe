@@ -1,0 +1,11 @@
+[{
+		"name": "Sunil",
+		"age": 30,
+		"flats": ["202"]
+	},
+	{
+		"name": "Niranjan",
+		"age": 32,
+		"flats": ["104"]
+	}
+]
