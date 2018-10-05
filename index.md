@@ -12,7 +12,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Members</a></li>
+      <li><a href="home.html">Members</a></li>
       <li><a href="#">Tenants</a></li>
       <li><a href="#">Helpers</a></li>
     </ul>
