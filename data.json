@@ -1,11 +1,11 @@
 [{
 		"Name": "Sunil",
 		"Mobile": 99861234887,
-		"Flat": ["202"]
+		"Flat": 202
 	},
 	{
 		"Name": "Niranjan",
-		"Mobile": 32,
-		"Flat": ["104"]
+		"Mobile": 456781234,
+		"Flat": 104
 	}
 ]
