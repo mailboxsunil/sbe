@@ -3,13 +3,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js" type = "text/javascript"></script>
     <script>
+    $(document).ready(function(){
+      
       function ViewModel() {
            this.firstName = ko.observable("Bert");
            this.lastName = ko.observable("Bertington");
            this.members = ko.observableArray([]);
       }
-
-    $(document).ready(function(){
        
         $.getJSON( "data.json", function( data ) {
        
