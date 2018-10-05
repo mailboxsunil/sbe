@@ -10,14 +10,17 @@
            this.lastName = ko.observable("Bertington");
            this.members = ko.observableArray([]);
       }
+      var vm = new ViewModel();
+      
+
        
         $.getJSON( "data.json", function( data ) {
        
                 console.log(data);
-                ViewModel.members(data);
+                vm.members(data);
            
         });
-       ko.applyBindings(new ViewModel());
+       ko.applyBindings(vm);
     });
     </script>
     <head>
