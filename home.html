@@ -3,14 +3,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js" type = "text/javascript"></script>
     <script>
+      function AppViewModel() {
+        this.firstName = "Bert";
+        this.lastName = "Bertington";
+      }
+
     $(document).ready(function(){
-    $.getJSON( "data.json", function( data ) {
+        ko.applyBindings(new AppViewModel());
+        $.getJSON( "data.json", function( data ) {
         alert(data);
     });
     });
     </script>
     <head>
 <body>
-<b>SAI BALAJI ELITE</b>
+    <b>SAI BALAJI ELITE</b>
+    <p>First name: <strong>todo</strong></p>
+    <p>Last name: <strong>todo</strong></p>
 </body>
 </html>
