@@ -15,6 +15,6 @@
           <div class="col-sm-4">Assets</div>
           <div class="col-sm-4">SOP</div>
         </div>
-     <div>
+     </div>
   </body>
-  </html>
+</html>
