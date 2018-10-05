@@ -6,7 +6,7 @@
   <body>
     <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-4">Members</div>
+          <div class="col-sm-4"><a href="home.html">Members1</a></div>
           <div class="col-sm-4">Meetings</div>
           <div class="col-sm-4">Do's and Dont's</div>
         </div>
