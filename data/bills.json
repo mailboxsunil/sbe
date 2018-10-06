@@ -1,31 +1,31 @@
 [{
-		"Name": "Sunil",
-		"Mobile": 99861234887,
-		"Flat": 202
+		"Period": "April/2018",
+		"Amount": 2000,
+		"Details": 202
 	},
 	{
-		"Name": "Niranjan",
-		"Mobile": 99844434887,
-		"Flat": 104
+		"Period": "May/2018",
+		"Amount": 99844434887,
+		"Details": 104
 	},
 	 {
-		"Name": "Bicky",
-		"Mobile": 99888234887,
-		"Flat": 306
+		"Period": "June/2018",
+		"Amount": 99888234887,
+		"Details": 306
 	},
  	 {
-		"Name": "Rajesh",
-		"Mobile": 9986127654,
-		"Flat": 302
+		"Period": "July/2018",
+		"Amount": 9986127654,
+		"Details": 302
 	},
  	 {
-		"Name": "Ashok",
-		"Mobile": 99861233498,
-		"Flat": 303
+		"Period": "August/2018",
+		"Amount": 99861233498,
+		"Details": 303
 	},
  	 {
-		"Name": "Onil",
-		"Mobile": 99445534887,
-		"Flat": 108
+		"Period": "September/2018",
+		"Amount": 99445534887,
+		"Details": 108
 	}
 ]
