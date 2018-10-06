@@ -1,31 +1,31 @@
 [{
 		"Period": "April/2018",
 		"Amount": 2000,
-		"Details": 202
+		"Details": "eb,water,repairs"
 	},
 	{
 		"Period": "May/2018",
-		"Amount": 99844434887,
-		"Details": 104
+		"Amount": 2100,
+		"Details": "water,power,tanker"
 	},
 	 {
 		"Period": "June/2018",
-		"Amount": 99888234887,
-		"Details": 306
+		"Amount": 2200,
+		"Details": "electrician,stp,borewell"
 	},
  	 {
 		"Period": "July/2018",
-		"Amount": 9986127654,
-		"Details": 302
+		"Amount": 2300,
+		"Details": "plumber,water,tanker"
 	},
  	 {
 		"Period": "August/2018",
-		"Amount": 99861233498,
-		"Details": 303
+		"Amount": 2400,
+		"Details": "stp,road,legal"
 	},
  	 {
 		"Period": "September/2018",
-		"Amount": 99445534887,
-		"Details": 108
+		"Amount": 2500,
+		"Details": "water,power,borewell"
 	}
 ]
