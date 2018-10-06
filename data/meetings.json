@@ -1,31 +1,37 @@
 [{
-		"Name": "Sunil",
-		"Mobile": 99861234887,
-		"Flat": 202
+		"Attendees": ['Sunil','ram', 'vijay'],
+		"Topics": ['water', 'security', 'bills'],
+		"Suggestions": ['aaa', 'bbb', 'ccc'],
+		"Decisions": ['AAA','BBB','CCC'],
 	},
 	{
-		"Name": "Niranjan",
-		"Mobile": 99844434887,
-		"Flat": 104
+		"Attendees": ['Sunil','ram', 'vijay'],
+		"Topics": ['water', 'security', 'bills'],
+		"Suggestions": ['aaa', 'bbb', 'ccc'],
+		"Decisions": ['AAA','BBB','CCC'],
 	},
 	 {
-		"Name": "Bicky",
-		"Mobile": 99888234887,
-		"Flat": 306
+		"Attendees": ['Sunil','ram', 'vijay'],
+		"Topics": ['water', 'security', 'bills'],
+		"Suggestions": ['aaa', 'bbb', 'ccc'],
+		"Decisions": ['AAA','BBB','CCC'],
 	},
  	 {
-		"Name": "Rajesh",
-		"Mobile": 9986127654,
-		"Flat": 302
+		"Attendees": ['Sunil','ram', 'vijay'],
+		"Topics": ['water', 'security', 'bills'],
+		"Suggestions": ['aaa', 'bbb', 'ccc'],
+		"Decisions": ['AAA','BBB','CCC'],
 	},
  	 {
-		"Name": "Ashok",
-		"Mobile": 99861233498,
-		"Flat": 303
+		"Attendees": ['Sunil','ram', 'vijay'],
+		"Topics": ['water', 'security', 'bills'],
+		"Suggestions": ['aaa', 'bbb', 'ccc'],
+		"Decisions": ['AAA','BBB','CCC'],
 	},
  	 {
-		"Name": "Onil",
-		"Mobile": 99445534887,
-		"Flat": 108
+		"Attendees": ['Sunil','ram', 'vijay'],
+		"Topics": ['water', 'security', 'bills'],
+		"Suggestions": ['aaa', 'bbb', 'ccc'],
+		"Decisions": ['AAA','BBB','CCC'],
 	}
 ]
