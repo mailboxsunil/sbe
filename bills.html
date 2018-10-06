@@ -13,7 +13,7 @@
       }
       var vm = new ViewModel();
 
-      $.getJSON( "data.json", function( data ) {
+      $.getJSON( "data/bills.json", function( data ) {
           vm.members(data);
       });
       
@@ -43,14 +43,14 @@
       
     <table class="table table-hover table-dark">
     <thead><tr>
-        <th>Name</th><th>Flat #</th><th>Mobile</th><th></th>
+        <th>Period</th><th>Amount</th><th>Details</th>
     </tr></thead>
       
     <tbody data-bind="foreach: members">
         <tr>
-            <td data-bind="text: Name"></td>
-            <td data-bind="text: Mobile"></td>
-            <td data-bind="text: Flat"></td>
+            <td data-bind="text: Period"></td>
+            <td data-bind="text: Amount"></td>
+            <td data-bind="text: Details"></td>
         </tr>
     </tbody>
 </table>
