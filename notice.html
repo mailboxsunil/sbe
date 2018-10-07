@@ -6,18 +6,20 @@
     <script>
     $(document).ready(function(){
       
-      function ViewModel() {
-           this.firstName = ko.observable("Bert");
-           this.lastName = ko.observable("Bertington");
-           this.members = ko.observableArray([]);
-      }
-      var vm = new ViewModel();
+      function MyViewModel() {
+     this.people = [
+         { name: 'Franklin', credits: 250 },
+         { name: 'Mario', credits: 5800 }
+     ]
+ }
+ ko.applyBindings(new MyViewModel());
+     
 
       $.getJSON( "data.json", function( data ) {
           vm.members(data);
       });
       
-       ko.applyBindings(vm);
+      
       
       
     });
@@ -40,20 +42,17 @@
   </nav>
     
     <div class="container-fluid" style="background-color:silver;">
-      
-    <table class="table table-hover table-dark">
-    <thead><tr>
-        <th>Name</th><th>Flat #</th><th>Mobile</th><th></th>
-    </tr></thead>
-      
-    <tbody data-bind="foreach: members">
-        <tr>
-            <td data-bind="text: Name"></td>
-            <td data-bind="text: Mobile"></td>
-            <td data-bind="text: Flat"></td>
-        </tr>
-    </tbody>
-</table>
+      <h2>Participants</h2>
+Here are the participants:
+<div data-bind="template: { name: 'person-template', foreach: people }"></div>
+ 
+<script type="text/html" id="person-template">
+    <h3 data-bind="text: name"></h3>
+    <p>Credits: <span data-bind="text: credits"></span></p>
+</script>
+ 
+ 
+    
  </div>
 </body>
 </html>
