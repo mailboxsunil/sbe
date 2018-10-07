@@ -13,7 +13,11 @@
       }
       var vm = new ViewModel();
 
-      $.getJSON( "data/members.json", function( data ) {
+      /*$.getJSON( "data/members.json", function( data ) {
+          vm.members(data);
+      });*/
+      
+       $.getJSON( "data/notice.json", function( data ) {
           vm.members(data);
       });
       
