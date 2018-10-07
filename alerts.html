@@ -17,13 +17,12 @@
     $(document).ready(function(){
       
        function ViewModel() {
-           this.firstName = ko.observable("Bert");
-           this.lastName = ko.observable("Bertington");
+           
            this.alerts = ko.observableArray([]);
       }
       var vm = new ViewModel();
       
-      $.getJSON( "data/notice.json", function( data ) {
+      $.getJSON( "data/alerts.json", function( data ) {
           vm.alerts(data);
       });
       
@@ -40,7 +39,7 @@
       <a class="navbar-brand" href="home.html">Sai Balaji Elite</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="notice.html">Notice Board</a></li>
+      <li class="active"><a href="alerts.html">Notice Board</a></li>
       <li><a href="members.html">Members</a></li>
       <li><a href="bills.html">Bills</a></li>
       <li><a href="meetings.html">Meetings</a></li>
@@ -49,6 +48,7 @@
   </nav>
     
     <div class="container-fluid" style="background-color:silver;">
+      <h3 class="bg-green">Alerts</h3>
       <div class="pre-scrollable">
         <div data-bind="template: { name: 'person-template', foreach: alerts }"></div> 
       </div>
