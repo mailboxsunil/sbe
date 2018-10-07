@@ -11,6 +11,8 @@
     $(document).ready(function(){
       
        function ViewModel() {
+           this.firstName = ko.observable("Bert");
+           this.lastName = ko.observable("Bertington");
            this.alerts = ko.observableArray([]);
       }
       var vm = new ViewModel();
