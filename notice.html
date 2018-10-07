@@ -4,8 +4,14 @@
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js" type = "text/javascript"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script type="text/html" id="person-template">
-      <h3 data-bind="text: Subject"></h3>
-      <p>Credits: <span data-bind="text: Message"></span></p>
+    
+    <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading" data-bind="text: Subject"></h4>
+    <p> <span data-bind="text: Message"></span> </p>
+    </div>
+    
+     
+
     </script>
     <script>
     $(document).ready(function(){
