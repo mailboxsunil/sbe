@@ -1,31 +1,26 @@
 [{
-		"Name": "Sunil",
-		"Mobile": 99861234887,
-		"Flat": 202
+		"Subject": "Parking Issue",
+		"Message": "Members are advised not to park car in areas marked 'No Parking'"
+		
 	},
 	{
-		"Name": "Niranjan",
-		"Mobile": 99844434887,
-		"Flat": 104
+		"Subject": "Khatha Issue",
+		"Message": "Members are adivised to apply for Khatha before Oct-30-2018"
 	},
 	 {
-		"Name": "Bicky",
-		"Mobile": 99888234887,
-		"Flat": 306
+		"Subject": "Association",
+		"Message": "Apartment association wll be formed soon"
 	},
  	 {
-		"Name": "Rajesh",
-		"Mobile": 9986127654,
-		"Flat": 302
+		"Subject": "Party Time",
+		"Message": "Birthday Party will be held at 25-oct-2018"
 	},
  	 {
-		"Name": "Ashok",
-		"Mobile": 99861233498,
-		"Flat": 303
+		"Subject": "Meeting",
+		"Message": 'Next Apartment meeting will be held on 01-Nov-2018'
 	},
  	 {
-		"Name": "Onil",
-		"Mobile": 99445534887,
-		"Flat": 108
+		"Subject": "Penalty",
+		"Message": "Late payment of maintenance fee will attract penaly from 01-Nov-2018"
 	}
 ]
