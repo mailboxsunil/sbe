@@ -5,20 +5,17 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script type="text/html" id="meeting-template">
       <!-------------------------->
-      <div class="card text-white bg-primary mb-3" >
-        <div class="card-header"  data-bind="text: Date"></div>
-        <div class="card-body text-secondary">
-          <h5 class="card-title">Topics</h5>
-          <p class="card-text" data-bind="text: Topics"></p>
-        </div>
-        <div class="card-body text-secondary">
-          <h5 class="card-title">Suggestions</h5>
-          <p class="card-text" data-bind="text: Suggestions"></p>
-        </div>
-        <div class="card-body text-secondary">
-          <h5 class="card-title">Decisions</h5>
-          <p class="card-text" data-bind="text: Decisions"></p>
-        </div>
+      
+      
+      <div class="panel panel-default">
+      <div class="panel-heading">
+      <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"  data-bind="text: Date"></a>
+      </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body" data-bind="text: Decisions"></div>
+      </div>
       </div>
       <!-------------------------->
     </script>
