@@ -1,42 +1,9 @@
 [{
-		"Attendees": ["Sunil","ram", "vijay"],
-		"Topics": ["water", "security", "bills"],
-		"Suggestions": ["aaa", "bbb", "ccc"],
-		"Decisions": ["AAA","BBB","CCC"]
-	},
-	{
-		
-		"Attendees": ["Sunil","ram", "vijay"],
-		"Topics": ["water", "security", "bills"],
-		"Suggestions": ["aaa", "bbb", "ccc"],
-		"Decisions": ["AAA","BBB","CCC"]
-	},
-	 {
-		
-		"Attendees": ["Sunil","ram", "vijay"],
-		"Topics": ["water", "security", "bills"],
-		"Suggestions": ["aaa", "bbb", "ccc"],
-		"Decisions": ["AAA","BBB","CCC"]
-	},
- 	 {
-		
-		"Attendees": ["Sunil","ram", "vijay"],
-		"Topics": ["water", "security", "bills"],
-		"Suggestions": ["aaa", "bbb", "ccc"],
-		"Decisions": ["AAA","BBB","CCC"]
-	},
- 	 {
-		
-		"Attendees": ["Sunil","ram", "vijay"],
-		"Topics": ["water", "security", "bills"],
-		"Suggestions": ["aaa", "bbb", "ccc"],
-		"Decisions": ["AAA","BBB","CCC"]
-	},
- 	 {
-		
-		"Attendees": ["Sunil","ram", "vijay"],
-		"Topics": ["water", "security", "bills"],
-		"Suggestions": ["aaa", "bbb", "ccc"],
-		"Decisions": ["AAA","BBB","CCC"]
+		"Date": "13-OCT-2018",
+		"Attendees": "Sunil,ram, vijay",
+		"Topics": "water, security, bills",
+		"Suggestions": "save water, increase security, reduce bills",
+		"Decisions": "AAA,BBB,CCC"
 	}
+	
 ]
