@@ -31,10 +31,13 @@
 </head>
 <body>
 
-    <div class="container-fluid">
-        <h3 class="bg-green">Alerts</h3>
-        <div class="pre-scrollable">
+    
+    <div class="container">
+        <h2>Alerts</h2>
+        <div class="panel-group" id="accordion">
+
             <div data-bind="template: { name: 'person-template', foreach: alerts }"></div>
+
         </div>
     </div>
 
