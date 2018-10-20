@@ -30,9 +30,9 @@
 
         <div class="card">
             <div class="card-header">
-                <a class="card-link" data-toggle="collapse" data-bind="attr: { href: '#'+ID }"><i data-bind="text: Date" /></a>
+                <a class="card-link" data-toggle="collapse" data-bind="attr: { href: '#_'+ID }"><i data-bind="text: Date" /></a>
             </div>
-            <div class="collapse show" data-parent="#accordion" data-bind="attr: { id: ID }">
+            <div class="collapse show" data-parent="#accordion" data-bind="attr: { id: '_'+ID }">
                 <div class="card-body" data-bind="text: Decisions"></div>
             </div>
         </div>
