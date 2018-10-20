@@ -11,12 +11,12 @@
         $(document).ready(function () {
 
            function ViewModel() {
-                this.meetings = ko.observableArray([]);
+                this.assets = ko.observableArray([]);
             }
             var vm = new ViewModel();
 
-            $.getJSON("data/meetings.json", function (data) {
-                vm.meetings(data);
+            $.getJSON("data/assets.json", function (data) {
+                vm.assets(data);
             });
 
             ko.applyBindings(vm);
@@ -30,10 +30,25 @@
 
         <div class="card">
             <div class="card-header">
-                <a class="card-link" data-toggle="collapse" data-bind="attr: { href: '#_'+ID }"><i data-bind="text: Date" /></a>
+                <a class="card-link" data-toggle="collapse" data-bind="attr: { href: '#_'+ID }"><i data-bind="text: Equipment" /></a>
             </div>
             <div class="collapse show" data-parent="#accordion" data-bind="attr: { id: '_'+ID }">
-                <div class="card-body" data-bind="text: Decisions"></div>
+                <div class="card-body">
+                
+                    <div>
+                        <strong>Manufacturer</strong>
+                        <p class="card-text" data-bind="text: Manufacturer"></p>
+                    </div>
+                    <div>
+                        <strong>AMC Start</strong>
+                        <p class="card-text" data-bind="text: AMC Start"></p>
+                    </div>
+                    <div>
+                        <strong>AMC End</strong>
+                        <p class="card-text" data-bind="text: AMC End"></p>
+                    </div>
+        
+                </div>
             </div>
         </div>
 
@@ -47,7 +62,7 @@
         <br />
         <div id="accordion">
 
-            <div data-bind="template: { name: 'asset-template', foreach: meetings }"></div>
+            <div data-bind="template: { name: 'asset-template', foreach: assets }"></div>
 
         </div>
     </div>
