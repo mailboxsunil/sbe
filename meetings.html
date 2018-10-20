@@ -9,15 +9,12 @@
     <!-------------------------->
     <script type="text/html" id="meeting-template">
     
-    <div class="card">
-        <div class="card-header"  data-bind="id:'hd'+ID">
-          <h5 class="mb-0">
-           <button class="btn btn-link" type="button" data-toggle="collapse" data-bind="data-target: '#'+ID,aria-controls:ID,text: Date" aria-expanded="true" >
-           </button>
-          </h5>
-        </div>
-        <div data-bind="id:ID,aria-labelledby: 'hd'+ID" class="collapse show"  data-parent="#accordionMeeting">
-          <div class="card-body">
+     <div class="card">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" data-bind="attr: { href: '#_'+ID }"><i data-bind="text: Date" /></a>
+            </div>
+            <div class="collapse show" data-parent="#accordion" data-bind="attr: { id: '_'+ID }">
+                 <div class="card-body">
                     <div>
                         <strong>Attendees</strong>
                         <p class="card-text" data-bind="text: Attendees"></p>
@@ -35,9 +32,9 @@
                         <p class="card-text" data-bind="text: Decisions"></p>
                     </div>
           </div>
+            </div>
         </div>
-    </div>
-
+    
         <!-------------------------->
     </script>
     <script>
