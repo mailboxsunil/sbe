@@ -1,0 +1,34 @@
+[
+	{
+		"ID": "1",
+		"Equipment": "Lift",
+		"Manufacturer": "OTIS",
+		"AMC Start": "10-Jan-18",
+		"AMC End": "10-Jan-19",
+		"Service Contact": "9986345243"
+	},
+	{
+		"ID": "2",
+		"Equipment": "Generator",
+		"Manufacturer": "Kriloskar",
+		"AMC Start": "10-Jan-18",
+		"AMC End": "10-Jan-19",
+		"Service Contact": "9986345245"
+	},
+	{
+		"ID": "3",
+		"Equipment": "Pump - Well",
+		"Manufacturer": "CRI",
+		"AMC Start": "NA",
+		"AMC End": "NA",
+		"Service Contact": "9986342376"
+	},
+	{
+		"ID": "4",
+		"Equipment": "Pump - Sump",
+		"Manufacturer": "CRI",
+		"AMC Start": "NA",
+		"AMC End": "NA",
+		"Service Contact": "9986345278"
+	}
+]
