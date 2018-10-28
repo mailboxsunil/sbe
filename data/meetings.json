@@ -1,99 +1,11 @@
 [
 	{
 		"ID": "1",
-		"Date": "1-Jan-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "2",
-		"Date": "1-Feb-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "3",
-		"Date": "1-Mar-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "4",
-		"Date": "1-Apr-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "5",
-		"Date": "1-May-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "6",
-		"Date": "1-Jun-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "7",
-		"Date": "1-Jul-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "8",
-		"Date": "1-Aug-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "9",
-		"Date": "1-Sep-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "10",
-		"Date": "1-Oct-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "11",
-		"Date": "1-Nov-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
-	},
-	{
-		"ID": "12",
-		"Date": "1-Dec-18",
-		"Attendees": "Abc; Def; Ghi",
-		"Topics": "water; security; bills",
-		"Suggestions": "save water; increase security; reduce bills",
-		"Decisions": "AAA;BBB;CCC"
+		"Date": "28-Oct-18",
+		"Attendees": "Sunil; Amjad; Magbhool; Rajiv; Rajesh; Sundar; Bicky; Dhakshayani; Ravi; Satish; Devendra; Suresh; Purushotam; Ashok; Padmanabhan; Ravi; Sundar; Madan; Suraj",
+		"Topics": "Election Method; Roles and Responsibilities of representatives; MoU for road;",
+		"Suggestions": "Form Association asap; Take second legal opionion",
+		"Decisions": "Elected President - Niranjan; Appointed Secretary - Maneesh; Appinted Treasurer - Sunil;"
 	}
-	
+
 ]
