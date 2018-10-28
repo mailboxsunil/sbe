@@ -4,59 +4,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js" type="text/javascript"></script>
-
-    <!-------------------------->
-    <script type="text/html" id="meeting-template">
-
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" data-bind="text: Date"></a>
-                </h4>
-            </div>
-            <div class="panel-collapse collapse in" data-bind="attr: { id: Date }">
-                <div class="panel-body">
-                    <div>
-                        <h4><u>Attendees</u></h4>
-                        <p class="card-text" data-bind="text: Attendees"></p>
-                    </div>
-                    <div>
-                        <h4><u>Topics</u></h4>
-                        <p class="card-text" data-bind="text: Topics"></p>
-                    </div>
-                    <div>
-                        <h4><u>Suggestions</u></h4>
-                        <p class="card-text" data-bind="text: Suggestions"></p>
-                    </div>
-                    <div>
-                        <h4><u>Decisions</u></h4>
-                        <p class="card-text" data-bind="text: Decisions"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-------------------------->
-    </script>
-    <script>
-        $(document).ready(function () {
-
-            function ViewModel() {
-
-                this.meetings = ko.observableArray([]);
-            }
-            var vm = new ViewModel();
-
-            $.getJSON("data/meetings.json", function (data) {
-                vm.meetings(data);
-            });
-
-            ko.applyBindings(vm);
-
-
-        });
-    </script>
-
 </head>
 
 <body>
@@ -65,15 +12,13 @@
         <h2>Support</h2>
 
         <table  class="table table-hover table-dark"><thead>
-            <tr><th>Person</th><th>Role </th><th>Shift  </th><th>Duties  </th></tr></thead>
-            <tr><td>Raju  </td><td>Day Security    </td><td>7:00 AM - 7:00 PM</td><td>Guard apartment at day time</td></tr>
-            <tr><td> Raju </td><td>STP Operator    </td><td>7:00 AM - 7:00 AM</td><td>Mantain STP</td></tr>
-            <tr><td>--</td><td>Sweeper        </td><td>10:00 AM - 1:00 PM</td><td>Clean corridor (all floors) daily basis, Clean parking lot (need based)</td></tr>
-            <tr><td>--</td><td>Night Security  </td><td>7:00 PM - 7:00 AM</td><td>Guard apartment at night</td></tr>         
-            
+            <tr><th>Person</th><th>Role </th>              <th>Shift  </th><th>Duties  </th></tr></thead>
+            <tr><td>Raju </td><td>Day Security        </td><td>7:00 AM - 7:00 PM</td><td>Guard apartment at day time</td></tr>
+            <tr><td>Raju </td><td>STP Operator        </td><td>7:00 AM - 7:00 AM</td><td>Mantain STP</td></tr>
+            <tr><td>--   </td><td>Sweeper             </td><td>N/A</td><td>Clean corridor (all floors) daily basis, Clean parking lot (need based)</td></tr>
+            <tr><td>--   </td><td>Night Security      </td><td>7:00 PM - 7:00 AM</td><td>Guard apartment at night</td></tr>               
         </table>
         
-
     </div>
 
 </body>
