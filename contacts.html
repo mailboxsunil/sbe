@@ -19,7 +19,7 @@
             }
             var vm = new ViewModel();
             $.getJSON("data/contacts.json", function (data) {
-                vm.meetings(data);
+                vm.contacts(data);
             });
             ko.applyBindings(vm);
         });
