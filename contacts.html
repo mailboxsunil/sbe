@@ -2,7 +2,7 @@
 <html>
 <head>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- <script type="text/html" id="meeting-template">
+ <script type="text/html" id="contact-template">
  </script>
  
  </head>
@@ -14,52 +14,11 @@
  
   <h2>Contacts</h2><BR>
    
-   <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Electrician</h5>
-        <p class="card-text">On call electician avaiable, charges 100 INR per piece</p>
-        <a class="btn btn-primary">998-545-5254</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Plumber</h5>
-        <p class="card-text">On call plumber avaiable, charges 500 INR per visit</p>
-        <a class="btn btn-primary">998-545-4567</a>
-      </div>
-    </div>
-  </div>
+ <div data-bind="template: { name: 'contact-template', foreach: meetings }"></div>
+
+  
+ 
 </div>
- 
- <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Borewell Repairs</h5>
-        <p class="card-text">Team of technicians availabe on call; charges 3500 INR per installation</p>
-        <a class="btn btn-primary">998-256-7499</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Sewage Disposal</h5>
-        <p class="card-text">Sewage tank removal and cleaning servie offered at 2500 INR per visit</p>
-        <a class="btn btn-primary">998-545-4567</a>
-      </div>
-    </div>
-  </div>
-</div>
- 
- 
-   
-   
-   </div>
   
  </body>
 </html>
