@@ -1,31 +1,16 @@
-[{
-		"Period": "April/2018",
-		"Amount": 2000,
-		"Details": "eb,water,repairs"
-	},
+[
 	{
-		"Period": "May/2018",
-		"Amount": 2100,
-		"Details": "water,power,tanker"
-	},
-	 {
-		"Period": "June/2018",
-		"Amount": 2200,
-		"Details": "electrician,stp,borewell"
-	},
- 	 {
-		"Period": "July/2018",
-		"Amount": 2300,
-		"Details": "plumber,water,tanker"
-	},
- 	 {
-		"Period": "August/2018",
-		"Amount": 2400,
-		"Details": "stp,road,legal"
-	},
- 	 {
-		"Period": "September/2018",
-		"Amount": 2500,
-		"Details": "water,power,borewell"
+		"Period": "Oct-18",
+		"Power1": "10000",
+		"Power2": "12000",
+		"Security1_Pay": "9000",
+		"Security2_Pay": "9000",
+		"STP_Pay": "6000",
+		"Cleaner_Pay": "6000",
+		"Diesel": "2000",
+		"STP_Chemicals": "1500",
+		"Others_Sum": "",
+		"Other_Items": "",
+		"Total": "45500"
 	}
 ]
