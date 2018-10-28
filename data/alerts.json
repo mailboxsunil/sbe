@@ -1,26 +1,7 @@
-[{
-		"Subject": "Parking Issue",
-		"Message": "Members are advised not to park car in areas marked 'No Parking'"
-		
-	},
+[
 	{
-		"Subject": "Khatha Issue",
-		"Message": "Members are adivised to apply for Khatha before Oct-30-2018"
-	},
-	 {
-		"Subject": "Association",
-		"Message": "Apartment association wll be formed soon"
-	},
- 	 {
-		"Subject": "Party Time",
-		"Message": "Birthday Party will be held at 25-oct-2018"
-	},
- 	 {
-		"Subject": "Meeting",
-		"Message": "Next Apartment meeting will be held on 01-Nov-2018"
-	},
- 	 {
-		"Subject": "Penalty",
-		"Message": "Late payment of maintenance fee will attract penaly from 01-Nov-2018"
+		"Date": "28-Oct-18",
+		"Title": "Election",
+		"Message": "A formal election was conducted among Sai Balaji Elite members (28/OCT/2018) to elect representatives for association. As per the election results-Niranjan is elected as President by way of voting;Maneesh is appointed as Secretary unanimously;Sunil is appointed as Treasurer unanimously;"
 	}
 ]
