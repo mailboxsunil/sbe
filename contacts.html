@@ -12,6 +12,19 @@
     </div>
  </script>
  
+ <script>
+        $(document).ready(function () {
+            function ViewModel() {
+                this.contacts = ko.observableArray([]);
+            }
+            var vm = new ViewModel();
+            $.getJSON("data/contacts.json", function (data) {
+                vm.meetings(data);
+            });
+            ko.applyBindings(vm);
+        });
+    </script>
+ 
  </head>
  
  <body>
